@@ -1,4 +1,3 @@
-
 -- Total Sales per State
 SELECT state, SUM(amount) AS total_sales
 FROM orders o
