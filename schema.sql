@@ -1,4 +1,3 @@
-
 -- Table: sales_targets
 CREATE TABLE sales_targets (
     id SERIAL PRIMARY KEY,
