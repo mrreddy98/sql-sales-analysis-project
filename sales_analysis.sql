@@ -1,4 +1,4 @@
--- Total Sales per State
+-- State Revenue Summary
 SELECT state, SUM(amount) AS total_sales
 FROM orders o
 JOIN order_details d ON o.order_id = d.order_id
