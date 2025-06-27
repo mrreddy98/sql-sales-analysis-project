@@ -1,0 +1,54 @@
+1️⃣ State Revenue Summary
+-- This query returns the total sales amount grouped by each state.
+-- The result shows which Indian state generated the highest revenue.
+-- Example Output:
+-- | State         | Total Sales |
+-- |---------------|-------------|
+-- | Maharashtra   | ₹3,25,000   |
+-- | Karnataka     | ₹2,95,000   |
+-- | Tamil Nadu    | ₹2,80,000   |
+-- | Delhi         | ₹2,65,000   |
+-- | Telangana     | ₹2,45,000   |
+-- These numbers are illustrative unless calculated directly from data.
+
+
+2️⃣ Monthly Sales vs Target
+-- This query compares actual sales against predefined targets for each month and category.
+-- It calculates the variance (actual - target) to show over- or under-performance.
+-- Example Output:
+-- | Month   | Category     | Target   | Actual Sales | Difference |
+-- |---------|--------------|----------|--------------|------------|
+-- | Jan-25  | Furniture    | ₹50,000  | ₹62,500      | +₹12,500   |
+-- | Jan-25  | Technology   | ₹80,000  | ₹75,000      | -₹5,000    |
+-- | Feb-25  | Office Supp. | ₹40,000  | ₹47,200      | +₹7,200    |
+-- | Feb-25  | Furniture    | ₹55,000  | ₹60,500      | +₹5,500    |
+
+
+3️⃣ Top 5 Products by Quantity
+ Answer:
+-- Most sold sub-categories based on quantity.
+-- Example:
+-- 1. Binders – 540 units
+-- 2. Paper – 480 units
+-- 3. Chairs – 420 units
+-- 4. Phones – 390 units
+-- 5. Storage – 360 units
+
+4️⃣ Most Profitable Cities
+-- Answer:
+-- Cities with the highest total profit.
+-- Example:
+-- 1. Mumbai – ₹45,000
+-- 2. Bangalore – ₹42,500
+-- 3. Hyderabad – ₹38,000
+-- 4. Delhi – ₹36,500
+-- 5. Pune – ₹33,000
+-- Useful for focusing marketing and operations.
+
+5️⃣ High Loss Orders (Negative Profits)
+-- Answer: 
+-- Lists the top 10 most loss-making line items.
+-- Example:
+-- | Order ID: OD1034 | City: Mumbai | Profit: -₹5,200 |
+-- | Order ID: OD1072 | City: Chennai | Profit: -₹4,800 |
+-- Helps identify pricing or discounting issues.
